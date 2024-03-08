@@ -1,0 +1,15 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.ms-submit-button {
+    margin: 10px;
+}
+
+.ms-input-field {
+    max-width: 300px;
+    width: 300px;
+}

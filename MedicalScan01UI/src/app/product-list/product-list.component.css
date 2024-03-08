@@ -1,0 +1,19 @@
+.ms-table {
+    padding: 0 10px;
+}
+
+.ms-list-button-container {
+    white-space: nowrap;
+}
+
+.ms-list-button {
+    margin: 0 10px 0 0;
+}
+
+.ms-no-products-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    margin: 20px;
+}

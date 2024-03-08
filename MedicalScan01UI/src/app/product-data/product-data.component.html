@@ -1,0 +1,19 @@
+<form [formGroup]="productForm" *ngIf="productForm" (ngSubmit)="onSubmit()" class="ms-product-form">
+    <div class="form-group">
+        <mat-form-field class="ms-input-field">
+            <mat-label for="name">Name</mat-label>
+            <input matInput class="form-control" formControlName="name">
+            @if (productForm.controls['name'].invalid) {
+                <mat-error>{{getNameErrorMessage()}}</mat-error>
+            }
+        </mat-form-field>
+        <mat-form-field class="ms-input-field">
+            <mat-label for="price">Price</mat-label>
+            <input matInput class="form-control" formControlName="price" type="number" min="0.01" max="9999.99">
+            @if (productForm.controls['price'].invalid) {
+                <mat-error>{{getPriceErrorMessage()}}</mat-error>
+            }
+        </mat-form-field>
+    </div>
+    <button mat-raised-button color="primary" [disabled]="!productForm.valid" class="ms-submit-button">Submit</button>
+</form>

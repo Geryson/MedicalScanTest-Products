@@ -1,0 +1,17 @@
+.ms-toolbar {
+    height: 60px;
+}
+
+.ms-h2 {
+    margin: 0 10px;
+}
+
+.ms-nav-buttons {
+    .button {
+        text-decoration: none;
+    }
+}
+
+.spacer {
+    flex: 1 1 auto;
+}

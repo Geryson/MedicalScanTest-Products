@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yqSU/iFW0TMFzVSmIWLGDM+VHwBoryCyZM67adRf3Hw=",
+  "Source": "MedicalScan01",
+  "BasePath": "_content/MedicalScan01",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
