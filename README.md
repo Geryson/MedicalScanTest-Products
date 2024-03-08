@@ -9,7 +9,7 @@ TestProject1 - a fő backend tesztelését végző projekt
 
 MedicalScan01UI - az Angular frontend projekt
 
-Angular frontent elindítása
+Angular frontend elindítása
 ---------------------------
 
 Előfeltételek:
